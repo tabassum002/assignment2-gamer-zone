@@ -154,3 +154,64 @@ background: #4EC5F7;
 color: white;
 
 }
+
+/* banner section ends here */
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 2px solid red;
+    max-width: 1400px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    gap: 15px;
+}
+
+#span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#h2{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.single-product {
+    width: 30%;
+    border: 1px solid green;
+    padding: 0 10px;
+}
+.single-product img {
+    width: 70%;
+    display: block; 
+    margin: 0 auto;
+    border-radius: 16px;
+background: lightgray 50% / cover no-repeat;
+}
+
+/* products section ends here */
+
+.picture-container{
+    width: 50%;
+    margin-left: 30%;
+    border: 1px solid red;
+    display: flex;
+}
+
+.picture-container img{
+    width: 100%;
+}
