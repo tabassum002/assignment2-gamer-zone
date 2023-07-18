@@ -1,3 +1,156 @@
-h1{
-    color: cadetblue;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+.{
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    max-width: 1400px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.logo-container{
+ display: flex;
+ width: 50%;
+justify-content: center;
+align-items: center;
+
+ }
+ 
+.logo-container img{
+ object-fit: cover; 
+  margin-right: 20px;
+}
+
+.logo-container p {
+    text-align: center;
+    font-family: 'Work Sans';
+     font-size: 45px;
+    font-weight: 700;
+}
+
+
+.nav-items-container{
+
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+.nav-items-container a{
+    text-decoration: none;
+font-size: 18px;
+font-weight: 500;
+color: #3C354F;
+align-items: center; 
+ justify-content: center; 
+}
+
+span{
+    color: #FF42A5;
+}
+
+.fa{ 
+     border-radius: 8px; 
+ background: rgba(11, 2, 35, 0.10);
+/* padding: 10px 20px;  */
+
+}
+
+/* nav ends here */
+
+.banner-container{
+display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banner-text{
+width: 50%;
+align-items: center;
+justify-content: center;
+}
+
+.banner-img{
+width: 40%;
+margin-top: 10px;
+}
+
+
+.banner-img img{
+width: 100%;
+height: auto;
+}
+
+.banner-text h2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-align: center;
+    font-family: 'Work Sans';
+   font-size: 95px;
+   font-style: normal;
+   font-weight: 800;
+   line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 15px;
+
+}
+
+.banner-text h1{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 120px;
+}
+
+.banner-text p{
+    color: #534C64;
+ text-align: center; 
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+margin-left: 10px;
+
+}
+
+.btn1 {
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: white;
+margin-left: 200px;
+margin-right: 20px;
+}
+
+.btn2 {
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+color: white;
+
 }
