@@ -71,12 +71,16 @@ span{
 display: flex;
     max-width: 1400px;
     margin: 0 auto;
+background-image: url("../group.png");
+
 }
 
 .banner-text{
 width: 50%;
 align-items: center;
 justify-content: center;
+background-image: url(".images/group.png");
+
 }
 
 .banner-img{
@@ -142,6 +146,7 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 color: white;
 margin-left: 200px;
 margin-right: 20px;
+border: 0px;
 }
 
 .btn2 {
@@ -152,6 +157,7 @@ gap: 10px;
 border-radius: 48px;
 background: #4EC5F7;
 color: white;
+border: 0px;
 
 }
 
@@ -159,9 +165,10 @@ color: white;
 
 
 .grid-container{
-     display: flex;
- /* grid-template-columns: repeat(4,1fr);  */
-    border: 2px solid red;
+  
+ /* grid-template-columns: repeat(4,1fr); */
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
     max-width: 1400px;
     margin: 50px auto 0;
     min-height: 400px;
@@ -193,19 +200,31 @@ line-height: 30px;
 }
 
 .single-product {
-    width: 30%;
-    border: 1px solid green;
+    width: 100%;
     padding: 0 10px;
-    flex-direction: row;
     display: flex;
+
+    /* display: flex; */
 }
 .single-product img {
-    width: 70%;
-    display: flex; 
+    width: 100%;
+    
+display: flex;  
     margin: 0 auto;
     border-radius: 16px;
 background: lightgray 50% / cover no-repeat;
 }
+
+#p{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
+}
+
+
 
 /* products section ends here */
 
@@ -290,10 +309,10 @@ right: 100px;
 
 
 .games-container{
-border: 1px solid red;
 min-height: 400px;
 margin-top: 60px;
-display: flex;
+display: grid;
+grid-template-columns: repeat(5,1fr);
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
