@@ -1,4 +1,4 @@
-@media  screen and (max-width:400px){
+@media  screen and (max-width:424px){
     
     .nav-container{
      flex-direction: column;
@@ -55,5 +55,52 @@ width: 100%;
 }
 
 
+.games-container{
+    flex-direction: column;
+}
 
+.single-game{
+    flex-direction: column;
+}
+
+    #footer-section{
+flex-direction: column;
+    }
+
+    .footer-section{
+flex-direction: column;
+
+    }
+
+    .story{
+        flex-direction: column;
+    }
+
+    #footer-section > .nav{
+flex-direction: column;
+
+}
+
+.fam{
+    flex-direction: column;
+}
+
+.policy{
+    flex-direction: column;
+}
+
+.gamer{
+    flex-direction: column;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width:768px) and (min-width:425px){
+    .nav-container{
+        flex-direction: column;
+    }
 }
