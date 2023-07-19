@@ -133,4 +133,137 @@ margin: 10px 20px;
     .nav-container{
         flex-direction: column;
     }
+
+
+    .nav-items-container{
+
+     flex-direction: column;
+       margin-top: 10px;
+       margin-left: 80px;
+    
+    }
+    
+    .nav-items-container a{
+    
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .banner-container{
+        flex-direction: column;
+    }
+.banner-text, .banner-img{
+    width: 100%;
+}
+.banner-text h1{
+    font-size: 35px;
+}
+
+.banner-text h2{
+    font-size: 35px;
+
+}
+
+.btn1, .btn2{
+    display: inline-flex;
+    padding: 10px 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 180px;
+
+}
+
+
+.grid-container{
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+
+
+.picture-container{
+    flex-direction: column;
+}
+
+.picture-text{
+width: 100%;
+font-size: 10px;
+text-align: center;
+}
+
+.picture-img{
+width: 100%;
+align-items: center;
+}
+
+
+.games-container{
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 0px;
+    align-items: center;
+}
+
+.single-game{
+    flex-direction: column;
+    font-size: 5px;
+}
+
+#single-game{
+    flex-direction: column;
+}
+
+    #footer-section{
+flex-direction: column;
+height: auto;
+width: 100%;
+margin-right: 50px;
+align-items: center;
+justify-content: center;
+    }
+
+    .footer-section p{
+flex-direction: column;
+height: 50vh;
+
+    }
+
+
+
+    .story{
+        flex-direction: column;
+    }
+
+    #footer-section > .nav{
+flex-direction: column;
+color: azure;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+justify-content: center;
+margin: 0px auto;
+}
+
+
+
+.policy{
+    flex-direction: column;
+}
+
+.gamer{
+    flex-direction: column;
+}
+
+.fam{
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+
+
 }
