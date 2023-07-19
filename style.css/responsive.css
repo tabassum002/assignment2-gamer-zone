@@ -40,4 +40,20 @@
 
 
 
+
+
+.picture-container{
+    flex-direction: column;
+}
+
+.picture-text{
+width: 100%;
+}
+
+.picture-img{
+width: 100%;
+}
+
+
+
 }
