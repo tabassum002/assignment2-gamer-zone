@@ -85,8 +85,8 @@ align-items: center;
 
     #footer-section{
 flex-direction: column;
-height: 5%;
-width: 150%;
+height: 100%;
+width: 100%;
     }
 
     .footer-section p{
@@ -135,6 +135,13 @@ margin: 10px 20px;
 
 
 @media screen and (max-width:768px) and (min-width:426px){
+    .{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+   
+   
     .nav-container{
         flex-direction: column;
     }

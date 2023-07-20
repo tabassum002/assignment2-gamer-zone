@@ -69,7 +69,7 @@ span{
 
 .banner-container{
 display: flex;
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 0 auto;
 background-image: url("../group.png");
 
@@ -169,7 +169,7 @@ border: 0px;
  /* grid-template-columns: repeat(4,1fr); */
    display: grid;
    grid-template-columns: repeat(4,1fr);
-    max-width: 1400px;
+    max-width: 1440px;
     margin: 50px auto 0;
     min-height: 400px;
     gap: 15px;
@@ -357,6 +357,9 @@ justify-content: center;
     border: 2px solid blue;
 }
 
+
+
+
 #single-games .arcade p{
  background-color: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%)); */
 background-clip: text;
@@ -371,7 +374,8 @@ border: 2px solid #FF42A5;
 #footer-section{
     height: 100vh;
     background-color: #0B0223;
-
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-section p{
