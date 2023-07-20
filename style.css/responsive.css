@@ -70,7 +70,7 @@ align-items: center;
 
 .games-container{
     grid-template-columns: repeat(2,1fr);
-    margin-left: 100px;
+    margin-left: 50px;
     align-items: center;
 }
 
