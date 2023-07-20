@@ -69,7 +69,7 @@ align-items: center;
 
 
 .games-container{
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     margin-left: 100px;
     align-items: center;
 }
@@ -103,7 +103,7 @@ height: 50vh;
 flex-direction: column;
 color: azure;
 display: grid;
-grid-template-columns: repeat(3,1fr);
+grid-template-columns: repeat(2,1fr);
 margin-bottom: 0px;
 align-items: center;
 justify-content: center;
@@ -124,7 +124,7 @@ margin: 10px 20px;
 .fam{
     flex-direction: column;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
 }
 
 
